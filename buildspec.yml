@@ -4,7 +4,3 @@ phases:
   build:
     commands:
       - gradlew build
-
-artifacts:
-  files:
-    - build/libs/simpleservice*.jar
