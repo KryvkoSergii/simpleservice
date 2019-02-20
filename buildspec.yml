@@ -8,4 +8,4 @@ phases:
   post_build:
     commands:
     - echo Build completed on `date`
-    - aws s3 cp build/libs/simpleservice*.jar s3://codebuild-103583146602-eu-central-output-backet/application.jar --sse AES256
+    - aws s3 cp build/libs/simpleservice*.jar s3://codepipeline-eu-central-1-686850500167/application.jar
